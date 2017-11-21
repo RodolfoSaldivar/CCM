@@ -1,0 +1,102 @@
+@font-face {
+    font-family: Roboto-Bold;
+    src: url(/fonts/Roboto/roboto_bold.woff);
+}
+
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(/fonts/Roboto/roboto_regular.woff);
+}
+
+@font-face {
+    font-family: Rudiment;
+    src: url(/fonts/chalkboard.ttf);
+}
+
+@font-face {
+    font-family: Chalkboard;
+    src: url(/fonts/Rudiment.ttf);
+}
+
+body {
+	background: url("/img/background.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.logo {
+  position: fixed;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 200px;
+}
+
+.centro{
+	  position: fixed;
+	  width: 100%;
+	  top: 50%;
+	  left: 50%;
+	  transform: translate(-50%, -50%);
+}
+
+h1{
+	font-family: Rudiment;
+	font-size: 36px;
+	text-align: center;
+	color: #81e2a8;
+}
+
+.texto{
+	font-family: Chalkboard;
+	text-align: center;
+	font-size: 28px;
+	width: 100%;
+	color: #81e2a8;
+}
+
+.navegadores {
+  font-family: Roboto-Regular;
+	text-align: center;
+  color: #81e2a8;
+  position: fixed;
+  bottom: 160px;
+  width: 100%;
+}
+
+.browser {
+  width: 50px;
+  height: auto;
+  margin: 0px 25px;
+}
+
+.ienot {
+  font-family: Roboto-Regular;
+  text-align: center;
+  color: #81e2a8;
+  position: fixed;
+  bottom: 100px;
+  width: 100%;
+}
+
+.browserie {
+  width: 30px;
+  height: auto;
+  margin: -7px 15px;
+}
+
+.contacto{
+	font-family: Roboto-Regular;
+	text-align: center;
+	position: fixed;
+	bottom: 20px;
+	width: 100%;
+	color: #81e2a8;
+}
+
+a {
+  	color: #81e2a8;
+    text-decoration: none;
+}
