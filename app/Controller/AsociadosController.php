@@ -56,7 +56,9 @@ class AsociadosController extends AppController {
 		$this->layout ="login";
 		$this->loadModel("EstatusTienda");
 
-		$activo = $this->EstatusTienda->valor();			
+		$activo = $this->EstatusTienda->valor();
+
+		if ($this->Session->check('Auth')) $this->redirect('/asociados/logout');	
 
 		if ($this->request->is('post'))
 		{ 
